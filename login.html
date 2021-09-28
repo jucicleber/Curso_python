@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body{
+                background-image:url(fundo2.jpg.jpg) ;
+            }
+            h1{
+                font-family:arial;
+                font-size:70px;
+                color:red;
+            }
+            h2{
+                font-family:arial;
+                font-size:50px;
+                color:red;
+            }
+            h3{
+                font-family:arial;
+                font-size:50px;
+                color:red;
+            }
+            button{
+                font-size: 50px;
+                color: blue;
+            }
+            input{
+                font-size: 50px;
+            }
+        </style>
+        <title>Tela de login</title>
+    </head>
+    <body>
+        <h1>Por favor digite seus dados de login nos campos abaixo:</h1>
+    <form method="POST" action="verificacao.php">
+        <h2> Login </h2>
+        <input class="nome" type="text" name="login" placeholder="Digite seu login">
+
+        <h3> Senha</h3>
+        <input class="email" type="text" name="senha" placeholder="Digite sua senha">
+
+        <button type="submit">Confirmar</button>
+    </form>
+    </body>
+</html>
